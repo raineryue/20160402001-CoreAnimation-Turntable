@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D57939BB1CB0165F0099EADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D57939BA1CB0165F0099EADB /* main.m */; };
+		D57939BE1CB0165F0099EADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D57939BD1CB0165F0099EADB /* AppDelegate.m */; };
+		D57939C11CB0165F0099EADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57939C01CB0165F0099EADB /* ViewController.m */; };
+		D57939C41CB0165F0099EADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57939C21CB0165F0099EADB /* Main.storyboard */; };
+		D57939C61CB0165F0099EADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57939C51CB0165F0099EADB /* Assets.xcassets */; };
+		D57939C91CB0165F0099EADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57939C71CB0165F0099EADB /* LaunchScreen.storyboard */; };
+		D57939D41CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57939D31CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableTests.m */; };
+		D57939DF1CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57939DE1CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D57939D01CB0165F0099EADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57939AE1CB0165F0099EADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57939B51CB0165F0099EADB;
+			remoteInfo = "20160402001-CoreAnimation-Turntable";
+		};
+		D57939DB1CB0165F0099EADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57939AE1CB0165F0099EADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57939B51CB0165F0099EADB;
+			remoteInfo = "20160402001-CoreAnimation-Turntable";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D57939B61CB0165F0099EADB /* 20160402001-CoreAnimation-Turntable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160402001-CoreAnimation-Turntable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57939BA1CB0165F0099EADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D57939BC1CB0165F0099EADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D57939BD1CB0165F0099EADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D57939BF1CB0165F0099EADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D57939C01CB0165F0099EADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D57939C31CB0165F0099EADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D57939C51CB0165F0099EADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D57939C81CB0165F0099EADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D57939CA1CB0165F0099EADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57939CF1CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160402001-CoreAnimation-TurntableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57939D31CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160402001_CoreAnimation_TurntableTests.m; sourceTree = "<group>"; };
+		D57939D51CB0165F0099EADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57939DA1CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160402001-CoreAnimation-TurntableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57939DE1CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160402001_CoreAnimation_TurntableUITests.m; sourceTree = "<group>"; };
+		D57939E01CB0165F0099EADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57939B31CB0165F0099EADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57939CC1CB0165F0099EADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57939D71CB0165F0099EADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D57939AD1CB0165F0099EADB = {
+			isa = PBXGroup;
+			children = (
+				D57939B81CB0165F0099EADB /* 20160402001-CoreAnimation-Turntable */,
+				D57939D21CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableTests */,
+				D57939DD1CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableUITests */,
+				D57939B71CB0165F0099EADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57939B71CB0165F0099EADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57939B61CB0165F0099EADB /* 20160402001-CoreAnimation-Turntable.app */,
+				D57939CF1CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableTests.xctest */,
+				D57939DA1CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57939B81CB0165F0099EADB /* 20160402001-CoreAnimation-Turntable */ = {
+			isa = PBXGroup;
+			children = (
+				D57939BC1CB0165F0099EADB /* AppDelegate.h */,
+				D57939BD1CB0165F0099EADB /* AppDelegate.m */,
+				D57939BF1CB0165F0099EADB /* ViewController.h */,
+				D57939C01CB0165F0099EADB /* ViewController.m */,
+				D57939C21CB0165F0099EADB /* Main.storyboard */,
+				D57939C51CB0165F0099EADB /* Assets.xcassets */,
+				D57939C71CB0165F0099EADB /* LaunchScreen.storyboard */,
+				D57939CA1CB0165F0099EADB /* Info.plist */,
+				D57939B91CB0165F0099EADB /* Supporting Files */,
+			);
+			path = "20160402001-CoreAnimation-Turntable";
+			sourceTree = "<group>";
+		};
+		D57939B91CB0165F0099EADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D57939BA1CB0165F0099EADB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D57939D21CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableTests */ = {
+			isa = PBXGroup;
+			children = (
+				D57939D31CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableTests.m */,
+				D57939D51CB0165F0099EADB /* Info.plist */,
+			);
+			path = "20160402001-CoreAnimation-TurntableTests";
+			sourceTree = "<group>";
+		};
+		D57939DD1CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D57939DE1CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableUITests.m */,
+				D57939E01CB0165F0099EADB /* Info.plist */,
+			);
+			path = "20160402001-CoreAnimation-TurntableUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57939B51CB0165F0099EADB /* 20160402001-CoreAnimation-Turntable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57939E31CB0165F0099EADB /* Build configuration list for PBXNativeTarget "20160402001-CoreAnimation-Turntable" */;
+			buildPhases = (
+				D57939B21CB0165F0099EADB /* Sources */,
+				D57939B31CB0165F0099EADB /* Frameworks */,
+				D57939B41CB0165F0099EADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160402001-CoreAnimation-Turntable";
+			productName = "20160402001-CoreAnimation-Turntable";
+			productReference = D57939B61CB0165F0099EADB /* 20160402001-CoreAnimation-Turntable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D57939CE1CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57939E61CB0165F0099EADB /* Build configuration list for PBXNativeTarget "20160402001-CoreAnimation-TurntableTests" */;
+			buildPhases = (
+				D57939CB1CB0165F0099EADB /* Sources */,
+				D57939CC1CB0165F0099EADB /* Frameworks */,
+				D57939CD1CB0165F0099EADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D57939D11CB0165F0099EADB /* PBXTargetDependency */,
+			);
+			name = "20160402001-CoreAnimation-TurntableTests";
+			productName = "20160402001-CoreAnimation-TurntableTests";
+			productReference = D57939CF1CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D57939D91CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57939E91CB0165F0099EADB /* Build configuration list for PBXNativeTarget "20160402001-CoreAnimation-TurntableUITests" */;
+			buildPhases = (
+				D57939D61CB0165F0099EADB /* Sources */,
+				D57939D71CB0165F0099EADB /* Frameworks */,
+				D57939D81CB0165F0099EADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D57939DC1CB0165F0099EADB /* PBXTargetDependency */,
+			);
+			name = "20160402001-CoreAnimation-TurntableUITests";
+			productName = "20160402001-CoreAnimation-TurntableUITests";
+			productReference = D57939DA1CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D57939AE1CB0165F0099EADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D57939B51CB0165F0099EADB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D57939CE1CB0165F0099EADB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D57939B51CB0165F0099EADB;
+					};
+					D57939D91CB0165F0099EADB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D57939B51CB0165F0099EADB;
+					};
+				};
+			};
+			buildConfigurationList = D57939B11CB0165F0099EADB /* Build configuration list for PBXProject "20160402001-CoreAnimation-Turntable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D57939AD1CB0165F0099EADB;
+			productRefGroup = D57939B71CB0165F0099EADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57939B51CB0165F0099EADB /* 20160402001-CoreAnimation-Turntable */,
+				D57939CE1CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableTests */,
+				D57939D91CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57939B41CB0165F0099EADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57939C91CB0165F0099EADB /* LaunchScreen.storyboard in Resources */,
+				D57939C61CB0165F0099EADB /* Assets.xcassets in Resources */,
+				D57939C41CB0165F0099EADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57939CD1CB0165F0099EADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57939D81CB0165F0099EADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57939B21CB0165F0099EADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57939C11CB0165F0099EADB /* ViewController.m in Sources */,
+				D57939BE1CB0165F0099EADB /* AppDelegate.m in Sources */,
+				D57939BB1CB0165F0099EADB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57939CB1CB0165F0099EADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57939D41CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57939D61CB0165F0099EADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57939DF1CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D57939D11CB0165F0099EADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57939B51CB0165F0099EADB /* 20160402001-CoreAnimation-Turntable */;
+			targetProxy = D57939D01CB0165F0099EADB /* PBXContainerItemProxy */;
+		};
+		D57939DC1CB0165F0099EADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57939B51CB0165F0099EADB /* 20160402001-CoreAnimation-Turntable */;
+			targetProxy = D57939DB1CB0165F0099EADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D57939C21CB0165F0099EADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57939C31CB0165F0099EADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D57939C71CB0165F0099EADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57939C81CB0165F0099EADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D57939E11CB0165F0099EADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D57939E21CB0165F0099EADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D57939E41CB0165F0099EADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160402001-CoreAnimation-Turntable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160402001-CoreAnimation-Turntable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D57939E51CB0165F0099EADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160402001-CoreAnimation-Turntable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160402001-CoreAnimation-Turntable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D57939E71CB0165F0099EADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160402001-CoreAnimation-TurntableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160402001-CoreAnimation-TurntableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160402001-CoreAnimation-Turntable.app/20160402001-CoreAnimation-Turntable";
+			};
+			name = Debug;
+		};
+		D57939E81CB0165F0099EADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160402001-CoreAnimation-TurntableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160402001-CoreAnimation-TurntableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160402001-CoreAnimation-Turntable.app/20160402001-CoreAnimation-Turntable";
+			};
+			name = Release;
+		};
+		D57939EA1CB0165F0099EADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160402001-CoreAnimation-TurntableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160402001-CoreAnimation-TurntableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160402001-CoreAnimation-Turntable";
+			};
+			name = Debug;
+		};
+		D57939EB1CB0165F0099EADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160402001-CoreAnimation-TurntableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160402001-CoreAnimation-TurntableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160402001-CoreAnimation-Turntable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57939B11CB0165F0099EADB /* Build configuration list for PBXProject "20160402001-CoreAnimation-Turntable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57939E11CB0165F0099EADB /* Debug */,
+				D57939E21CB0165F0099EADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57939E31CB0165F0099EADB /* Build configuration list for PBXNativeTarget "20160402001-CoreAnimation-Turntable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57939E41CB0165F0099EADB /* Debug */,
+				D57939E51CB0165F0099EADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D57939E61CB0165F0099EADB /* Build configuration list for PBXNativeTarget "20160402001-CoreAnimation-TurntableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57939E71CB0165F0099EADB /* Debug */,
+				D57939E81CB0165F0099EADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D57939E91CB0165F0099EADB /* Build configuration list for PBXNativeTarget "20160402001-CoreAnimation-TurntableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57939EA1CB0165F0099EADB /* Debug */,
+				D57939EB1CB0165F0099EADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D57939AE1CB0165F0099EADB /* Project object */;
+}
