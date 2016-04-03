@@ -15,6 +15,9 @@
 		D57939C91CB0165F0099EADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57939C71CB0165F0099EADB /* LaunchScreen.storyboard */; };
 		D57939D41CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57939D31CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableTests.m */; };
 		D57939DF1CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57939DE1CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableUITests.m */; };
+		D57939EE1CB016FC0099EADB /* TurntableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D57939ED1CB016FC0099EADB /* TurntableView.m */; };
+		D57939F01CB017100099EADB /* TurntableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D57939EF1CB017100099EADB /* TurntableView.xib */; };
+		D5F8F1901CB1145400648313 /* LuckyRotateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F8F18F1CB1145400648313 /* LuckyRotateButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		D57939DA1CB0165F0099EADB /* 20160402001-CoreAnimation-TurntableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160402001-CoreAnimation-TurntableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57939DE1CB0165F0099EADB /* _0160402001_CoreAnimation_TurntableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160402001_CoreAnimation_TurntableUITests.m; sourceTree = "<group>"; };
 		D57939E01CB0165F0099EADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57939EC1CB016FC0099EADB /* TurntableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurntableView.h; sourceTree = "<group>"; };
+		D57939ED1CB016FC0099EADB /* TurntableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurntableView.m; sourceTree = "<group>"; };
+		D57939EF1CB017100099EADB /* TurntableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TurntableView.xib; sourceTree = "<group>"; };
+		D5F8F18E1CB1145400648313 /* LuckyRotateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyRotateButton.h; sourceTree = "<group>"; };
+		D5F8F18F1CB1145400648313 /* LuckyRotateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyRotateButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				D57939BD1CB0165F0099EADB /* AppDelegate.m */,
 				D57939BF1CB0165F0099EADB /* ViewController.h */,
 				D57939C01CB0165F0099EADB /* ViewController.m */,
+				D57939EC1CB016FC0099EADB /* TurntableView.h */,
+				D57939ED1CB016FC0099EADB /* TurntableView.m */,
+				D57939EF1CB017100099EADB /* TurntableView.xib */,
+				D5F8F18E1CB1145400648313 /* LuckyRotateButton.h */,
+				D5F8F18F1CB1145400648313 /* LuckyRotateButton.m */,
 				D57939C21CB0165F0099EADB /* Main.storyboard */,
 				D57939C51CB0165F0099EADB /* Assets.xcassets */,
 				D57939C71CB0165F0099EADB /* LaunchScreen.storyboard */,
@@ -245,6 +258,7 @@
 			files = (
 				D57939C91CB0165F0099EADB /* LaunchScreen.storyboard in Resources */,
 				D57939C61CB0165F0099EADB /* Assets.xcassets in Resources */,
+				D57939F01CB017100099EADB /* TurntableView.xib in Resources */,
 				D57939C41CB0165F0099EADB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D57939C11CB0165F0099EADB /* ViewController.m in Sources */,
+				D5F8F1901CB1145400648313 /* LuckyRotateButton.m in Sources */,
 				D57939BE1CB0165F0099EADB /* AppDelegate.m in Sources */,
+				D57939EE1CB016FC0099EADB /* TurntableView.m in Sources */,
 				D57939BB1CB0165F0099EADB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +512,7 @@
 				D57939E51CB0165F0099EADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D57939E61CB0165F0099EADB /* Build configuration list for PBXNativeTarget "20160402001-CoreAnimation-TurntableTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +521,7 @@
 				D57939E81CB0165F0099EADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D57939E91CB0165F0099EADB /* Build configuration list for PBXNativeTarget "20160402001-CoreAnimation-TurntableUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +530,7 @@
 				D57939EB1CB0165F0099EADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

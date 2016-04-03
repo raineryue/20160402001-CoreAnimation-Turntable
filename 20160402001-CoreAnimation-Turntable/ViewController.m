@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "TurntableView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) TurntableView *turntableView;
 
 @end
 
@@ -16,7 +19,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // 1.创建一个转盘对象
+    self.turntableView = [TurntableView turntableView];
+    
+    // 2.设置转盘的位置
+    self.turntableView.center = self.view.center;
+    
+    // 3.将转盘添加到控制器视图上
+    [self.view addSubview:self.turntableView];
+}
+
+/**
+ *  开始按钮点击事件
+ */
+- (IBAction)startButtonClickAction:(id)sender {
+    [self.turntableView startTurntable];
+}
+
+/**
+ *  停止按钮点击事件
+ */
+- (IBAction)pauseButtonClickAction:(id)sender {
+    [self.turntableView pauseTurntable];
 }
 
 - (void)didReceiveMemoryWarning {

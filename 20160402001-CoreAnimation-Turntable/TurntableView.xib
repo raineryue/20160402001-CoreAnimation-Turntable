@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="9t8-Vx-KRG" customClass="TurntableView">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LuckyBaseBackground" translatesAutoresizingMaskIntoConstraints="NO" id="aY5-Dg-3uF">
+                    <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LuckyRotateWheel" translatesAutoresizingMaskIntoConstraints="NO" id="tgO-bg-WuR">
+                    <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZX-qW-BC4">
+                    <rect key="frame" x="102.5" y="102" width="81" height="81"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="81" id="VUF-fk-iZH"/>
+                        <constraint firstAttribute="width" constant="81" id="pxJ-Xp-cqp"/>
+                    </constraints>
+                    <state key="normal" image="LuckyCenterButton"/>
+                    <state key="highlighted" image="LuckyCenterButtonPressed"/>
+                    <connections>
+                        <action selector="selectNumberClickAction:" destination="9t8-Vx-KRG" eventType="touchUpInside" id="qEW-PF-hhe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tgO-bg-WuR" firstAttribute="top" secondItem="9t8-Vx-KRG" secondAttribute="top" id="GnP-vM-CU0"/>
+                <constraint firstItem="tgO-bg-WuR" firstAttribute="leading" secondItem="9t8-Vx-KRG" secondAttribute="leading" id="Jmc-do-BqM"/>
+                <constraint firstAttribute="trailing" secondItem="aY5-Dg-3uF" secondAttribute="trailing" id="VCh-Um-THx"/>
+                <constraint firstAttribute="bottom" secondItem="aY5-Dg-3uF" secondAttribute="bottom" id="X7O-Lv-hxx"/>
+                <constraint firstItem="aY5-Dg-3uF" firstAttribute="leading" secondItem="9t8-Vx-KRG" secondAttribute="leading" id="Yr8-52-ZFv"/>
+                <constraint firstAttribute="bottom" secondItem="tgO-bg-WuR" secondAttribute="bottom" id="aPC-Yw-3sv"/>
+                <constraint firstItem="aZX-qW-BC4" firstAttribute="centerX" secondItem="9t8-Vx-KRG" secondAttribute="centerX" id="jK6-0f-FYA"/>
+                <constraint firstItem="aY5-Dg-3uF" firstAttribute="top" secondItem="9t8-Vx-KRG" secondAttribute="top" id="q1z-58-j9s"/>
+                <constraint firstItem="aZX-qW-BC4" firstAttribute="centerY" secondItem="9t8-Vx-KRG" secondAttribute="centerY" id="tFD-GL-3B4"/>
+                <constraint firstAttribute="trailing" secondItem="tgO-bg-WuR" secondAttribute="trailing" id="zag-qr-XhI"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="beginChangeNumberButton" destination="aZX-qW-BC4" id="s6R-5x-Dns"/>
+                <outlet property="luckyRotateWheelImageView" destination="tgO-bg-WuR" id="5th-wf-LsV"/>
+            </connections>
+            <point key="canvasLocation" x="433" y="166"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LuckyBaseBackground" width="286" height="286"/>
+        <image name="LuckyCenterButton" width="81" height="81"/>
+        <image name="LuckyCenterButtonPressed" width="81" height="81"/>
+        <image name="LuckyRotateWheel" width="286" height="286"/>
+    </resources>
+</document>
